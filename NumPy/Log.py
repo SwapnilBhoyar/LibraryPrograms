@@ -8,7 +8,7 @@
 import logging
 
 class Log:
-    logging.basicConfig(filename="Output.log",
+    logging.basicConfig(filename="OutputInfo.log",
                     format='%(asctime)s %(message)s',
                     filemode='w')
   
